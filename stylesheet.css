@@ -1,6 +1,74 @@
 h1{
 	text-align: center;
+
+	padding:0;
+	margin: 0;
+font-size: 60px;
+animation-name:first;
+animation-duration:2s;
+animation-iteration-count: infinite;
 }
 h4{
-	text-align: left;
+	text-align: center;
+	padding-top: 0;
+	margin-top:0;
+	margin-bottom:0;
+	color:red;
 }
+h5{
+	text-align: center;
+	padding:2px 0 2px 0;
+	margin:0;
+	color:#FF0000;
+}
+.heading{
+	background-image:url("https://down-yuantu.pngtree.com/back_origin_pic/03/57/07/632dd6864959ad499e30dd77d9e75116.jpg?e=1560668959&st=NzY4Y2IyYmM4YzBkMWZjZmJmN2M2YTExY2ZmZDgwNGY&n=%E2%80%94Pngtree%E2%80%94science%20clear%20blue%20color%20luminous_491628.jpg");
+ overflow: auto;
+border:1px solid hotpink;
+}
+@keyframes first{
+	0%{
+		color:white;
+
+	}
+	25%{
+    color:orange;
+	}
+	50%{
+		color:red;
+	}
+	75%{
+		color:magenta;
+	}
+	100%{
+		
+	}
+}
+.nav ul{
+padding:0;
+margin:2px 0 0;
+
+}
+.nav ul li{
+	list-style: none;
+	float:left;
+	
+} 
+
+li a{
+	text-decoration: none;
+	color:blue;
+	display:block;
+font-size:20px;
+background-color:lightgreen;
+}
+li a.active{
+	background-color:red;
+
+	color:blue;
+}
+
+
+
+
+

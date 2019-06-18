@@ -1,6 +1,83 @@
 h1{
 	text-align: center;
+
+	padding:0;
+	margin: 0;
+font-size: 60px;
+animation-name:first;
+animation-duration:2s;
+animation-iteration-count: infinite;
 }
 h4{
 	text-align: center;
+<<<<<<< HEAD
 }
+=======
+	padding-top: 0;
+	margin-top:0;
+	margin-bottom:0;
+	color:red;
+}
+h5{
+	text-align: center;
+	padding:2px 0 2px 0;
+	margin:0;
+	color:#FF0000;
+}
+.heading{
+	background-image:url("heading.jpg");
+ overflow: auto;
+border:1px solid hotpink;
+}
+@keyframes first{
+	0%{
+		color:white;
+
+	}
+	25%{
+    color:orange;
+	}
+	50%{
+		color:red;
+	}
+	75%{
+		color:magenta;
+	}
+	100%{
+		
+	}
+}
+.nav ul{
+padding:0;
+margin:2px 0 0;
+
+}
+.nav ul li{
+	list-style: none;
+	float:left;
+	
+} 
+
+li a{
+	text-decoration: none;
+	color:blue;
+	display:block;
+font-size:20px;
+background-color:lightgreen;
+}
+li a.active{
+	background-color:red;
+
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 3b21abf33995b16cb17bc983790c77b5f452eca7

@@ -22,8 +22,11 @@ h5{
 	color:#FF0000;
 }
 .heading{
-	background-image:url("heading.jpg");
- overflow: auto;
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWofhYtxmZLgbOYZUZxVpzQOOFFSxUyWl3efgcGENAjqbOQKgq");
+	background-size: 100% 100%;
+position: left;
+ overflow:hidden;
+
 border:1px solid hotpink;
 }
 @keyframes first{
@@ -44,28 +47,27 @@ border:1px solid hotpink;
 		
 	}
 }
+.nav{
+	padding-top:2px;
+}
 .nav ul{
-padding:0;
-margin:2px 0 0;
-
+	padding:0;
+	margin:0;
+	border-radius:10px;
+	background-color:#333;
+	overflow:hidden;
 }
 .nav ul li{
 	list-style: none;
-	float:left;
-	
-} 
-
-li a{
-	text-decoration: none;
-	color:blue;
-	display:block;
-font-size:20px;
-background-color:lightgreen;
+float:left;
+padding:10px;
+border:1px solid red;
 }
-li a.active{
-	background-color:red;
+a{
 
-	color:blue;
+	text-decoration: none;
+	color:white;
+	font-size:18px;
 }
 
 

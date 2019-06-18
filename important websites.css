@@ -1,0 +1,13 @@
+.web li{
+	font-size:30px;
+}
+.web li a{
+	text-decoration: none;
+}
+.web li a:hover{
+	color:red;
+}
+.web li a:active{
+	color:green;
+}
+

@@ -1,4 +1,4 @@
-h1{
+.heading h1{
 	text-align: center;
 
 	padding:0;
@@ -8,21 +8,21 @@ animation-name:first;
 animation-duration:2s;
 animation-iteration-count: infinite;
 }
-h4{
+.heading h4{
 	text-align: center;
 	padding-top: 0;
 	margin-top:0;
 	margin-bottom:0;
 	color:red;
 }
-h5{
+.heading h5{
 	text-align: center;
 	padding:2px 0 2px 0;
 	margin:0;
 	color:#FF0000;
 }
 .heading{
-	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWofhYtxmZLgbOYZUZxVpzQOOFFSxUyWl3efgcGENAjqbOQKgq");
+	background-image:url("ages?q=tbn:ANd9GcRWofhYtxmZLgbOYZUZxVpzQOOFFSxUyWl3efgcGENAjqbOQKgq");
 	background-size: 100% 100%;
 position: left;
  overflow:hidden;
@@ -75,4 +75,30 @@ a{
 li a:hover{
 	background-color:red;
 	color:blue;
+}
+.timetable img{
+	padding:0;
+	margin-left:120px;
+	border:2px solid black;
+	
+}
+.timetable h1{
+	text-align:center;
+	text-decoration:underline solid red;
+
+}
+/*
+.timetable button{
+	background-color:#333;
+	color:white;
+	float:right;
+	height:30px;
+	position:fixed;
+	padding-right:15px;
+}
+*/
+.nav li a:active{
+	background-color:hotpink;
+	color:blue;
+
 }

@@ -1,0 +1,52 @@
+ img{
+	padding:0;
+
+	border:2px solid black;
+	margin:0;
+
+}
+
+#jpg{
+text-align: center;
+padding: 5px 40px;
+}
+
+.timetable h1{
+	text-align:center;
+	text-decoration:underline solid red;
+
+}
+/*
+.timetable button{
+	background-color:#333;
+	color:white;
+	float:right;
+	height:30px;
+	position:fixed;
+	padding-right:15px;
+}
+*/
+h1{
+	font-size: 35px;
+}
+strong{
+color:blue;
+font-size:28px;
+}
+span{
+	border:1px solid red;
+	padding:1px 10px;
+border-radius:10px;
+background-color:hotpink;
+}
+a:hover{
+	background-color:white;
+	border:1px solid blue;
+}
+a:active{
+	background-color:white;
+	border:1px solid blue;
+}
+a{
+	text-decoration: none;
+}

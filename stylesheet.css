@@ -76,27 +76,7 @@ li a:hover{
 	background-color:red;
 	color:blue;
 }
-.timetable img{
-	padding:0;
-	margin-left:120px;
-	border:2px solid black;
-	
-}
-.timetable h1{
-	text-align:center;
-	text-decoration:underline solid red;
 
-}
-/*
-.timetable button{
-	background-color:#333;
-	color:white;
-	float:right;
-	height:30px;
-	position:fixed;
-	padding-right:15px;
-}
-*/
 .nav li a:active{
 	background-color:hotpink;
 	color:blue;
